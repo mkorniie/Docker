@@ -1,0 +1,1 @@
+docker service create  --health-cmd --replicas 2 --name engineering-bay --network overmind --env OC_USERNAME=ololo --env OC_PASSWD=ololo 42school/engineering-bay
